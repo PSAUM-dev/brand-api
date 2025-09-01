@@ -53,9 +53,11 @@ PUT
 <code>http://[Your_Host]/brands/{brand_id}</code><br />
 sending raw data in the json format containing informations you want to update.<br />
 <u>For example :</u><br />
-<code> {
+<code>
+{
     brand_name : "My new brand name"
-}</code> if i only want to update the brand name
+}
+</code><br/> if i only want to update the brand name
 
 ### 4. Create brand
 POST
@@ -70,7 +72,7 @@ sending raw data in the json format containing informations about the brand you 
     "country_code" : "FR"
 }
 ```
-<b>Also support multiple brand creation</b> by sending array of data
+<b>Also support multiple brand creation</b> by sending array of data<br/>
 <u>For example :</u><br />
 ```
 [
